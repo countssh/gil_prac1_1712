@@ -37,6 +37,6 @@ public class SumController {
 
         double alpha = (Math.pow(p, 5) * Math.sqrt(a * Math.pow(x, 3) + 2)) / (2 * Math.cos(x));
 
-        resultLabel.setText("При p = " + String.format("%.3f", p) + " a = " + String.format("%.3f", alpha));
+        resultLabel.setText("При p = " + String.format("%.3f", p) + "  a = " + String.format("%.3f", alpha));
     }
 }
