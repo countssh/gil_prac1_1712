@@ -22,17 +22,14 @@ public class SumController {
         float x = Float.parseFloat(xTextField.getText().toString());
 
         if (Math.cos(x) == 0) {
-            System.out.println("Ошибка: cos(x) равен нулю. Деление на ноль невозможно.");
             return;
         }
 
         if (Math.tan(x / 2) == 0) {
-            System.out.println("Ошибка: tan(x/2) равен нулю. Логарифм неопределён.");
             return;
         }
 
         if (a * Math.pow(x, 3) + 2 < 0) {
-            System.out.println("Ошибка: Подкоренное выражение отрицательно.");
             return;
         }
 
